@@ -1,0 +1,35 @@
+{
+  "buildFiles": [
+    "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/CMakeLists.txt",
+    "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/imac/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/debug/x86 --target clean"
+  ],
+  "libraries": {
+    "yuv-Debug-x86": {
+      "artifactName": "yuv",
+      "buildCommand": "/Users/imac/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/debug/x86 --target yuv",
+      "abi": "x86",
+      "output": "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/debug/x86/build/libyuv.a"
+    },
+    "yuv_shared-Debug-x86": {
+      "artifactName": "yuv_shared",
+      "buildCommand": "/Users/imac/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/debug/x86 --target yuv_shared",
+      "abi": "x86",
+      "output": "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/build/intermediates/cmake/debug/obj/x86/libyuv.so"
+    },
+    "yuvconvert-Debug-x86": {
+      "artifactName": "yuvconvert",
+      "buildCommand": "/Users/imac/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/debug/x86 --target yuvconvert",
+      "abi": "x86",
+      "output": "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/debug/x86/build/yuvconvert"
+    },
+    "yuvutil-Debug-x86": {
+      "artifactName": "yuvutil",
+      "buildCommand": "/Users/imac/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/debug/x86 --target yuvutil",
+      "abi": "x86",
+      "output": "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/build/intermediates/cmake/debug/obj/x86/libyuvutil.so"
+    }
+  }
+}

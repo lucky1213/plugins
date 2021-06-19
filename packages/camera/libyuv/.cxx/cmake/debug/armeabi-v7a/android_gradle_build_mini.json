@@ -1,0 +1,35 @@
+{
+  "buildFiles": [
+    "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/CMakeLists.txt",
+    "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/imac/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/debug/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "yuv-Debug-armeabi-v7a": {
+      "artifactName": "yuv",
+      "buildCommand": "/Users/imac/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/debug/armeabi-v7a --target yuv",
+      "abi": "armeabi-v7a",
+      "output": "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/debug/armeabi-v7a/build/libyuv.a"
+    },
+    "yuv_shared-Debug-armeabi-v7a": {
+      "artifactName": "yuv_shared",
+      "buildCommand": "/Users/imac/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/debug/armeabi-v7a --target yuv_shared",
+      "abi": "armeabi-v7a",
+      "output": "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/build/intermediates/cmake/debug/obj/armeabi-v7a/libyuv.so"
+    },
+    "yuvutil-Debug-armeabi-v7a": {
+      "artifactName": "yuvutil",
+      "buildCommand": "/Users/imac/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/debug/armeabi-v7a --target yuvutil",
+      "abi": "armeabi-v7a",
+      "output": "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/build/intermediates/cmake/debug/obj/armeabi-v7a/libyuvutil.so"
+    },
+    "yuvconvert-Debug-armeabi-v7a": {
+      "artifactName": "yuvconvert",
+      "buildCommand": "/Users/imac/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/debug/armeabi-v7a --target yuvconvert",
+      "abi": "armeabi-v7a",
+      "output": "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/debug/armeabi-v7a/build/yuvconvert"
+    }
+  }
+}

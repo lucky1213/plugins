@@ -1,0 +1,5 @@
+include ':camera'
+include ':libyuv'
+
+project(':camera').projectDir = file('android')
+project(':libyuv').projectDir = file('android/libyuv')

@@ -1,0 +1,642 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/CMakeLists.txt",
+		"/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/imac/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cc", "cpp" ],
+	"libraries" : 
+	{
+		"yuv-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "yuv",
+			"buildCommand" : "/Users/imac/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64 --target yuv",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/compare.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/compare_common.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/compare_gcc.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/compare_neon.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/compare_neon64.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/compare_win.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/convert.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/convert_argb.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/convert_from.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/convert_from_argb.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/convert_jpeg.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/convert_to_argb.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/convert_to_i420.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/cpu_id.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/mjpeg_decoder.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/mjpeg_validate.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/planar_functions.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/rotate.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/rotate_any.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/rotate_argb.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/rotate_common.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/rotate_dspr2.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/rotate_gcc.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/rotate_msa.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/rotate_neon.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/rotate_neon64.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/rotate_win.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/row_any.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/row_common.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/row_dspr2.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/row_gcc.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/row_msa.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/row_neon.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/row_neon64.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/row_win.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/scale.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/scale_any.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/scale_argb.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/scale_common.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/scale_dspr2.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/scale_gcc.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/scale_msa.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/scale_neon.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/scale_neon64.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/scale_win.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/video_common.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				}
+			],
+			"output" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64/build/libyuv.a",
+			"toolchain" : "7344173253103573185"
+		},
+		"yuv_shared-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "yuv_shared",
+			"buildCommand" : "/Users/imac/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64 --target yuv_shared",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/compare.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/compare_common.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/compare_gcc.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/compare_neon.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/compare_neon64.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/compare_win.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/convert.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/convert_argb.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/convert_from.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/convert_from_argb.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/convert_jpeg.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/convert_to_argb.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/convert_to_i420.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/cpu_id.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/mjpeg_decoder.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/mjpeg_validate.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/planar_functions.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/rotate.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/rotate_any.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/rotate_argb.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/rotate_common.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/rotate_dspr2.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/rotate_gcc.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/rotate_msa.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/rotate_neon.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/rotate_neon64.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/rotate_win.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/row_any.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/row_common.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/row_dspr2.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/row_gcc.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/row_msa.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/row_neon.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/row_neon64.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/row_win.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/scale.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/scale_any.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/scale_argb.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/scale_common.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/scale_dspr2.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/scale_gcc.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/scale_msa.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/scale_neon.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/scale_neon64.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/scale_win.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/source/video_common.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				}
+			],
+			"output" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/build/intermediates/cmake/release/obj/x86_64/libyuv.so",
+			"toolchain" : "7344173253103573185"
+		},
+		"yuvconvert-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "yuvconvert",
+			"buildCommand" : "/Users/imac/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64 --target yuvconvert",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIE    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/libyuv/util/yuvconvert.cc",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				}
+			],
+			"output" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64/build/yuvconvert",
+			"toolchain" : "7344173253103573185"
+		},
+		"yuvutil-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "yuvutil",
+			"buildCommand" : "/Users/imac/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64 --target yuvutil",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuvutil_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/YuvJni.cpp",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuvutil_EXPORTS -I../../../../src/main/cpp/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/src/main/cpp/YuvConvert.cpp",
+					"workingDirectory" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/release/x86_64"
+				}
+			],
+			"output" : "/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/build/intermediates/cmake/release/obj/x86_64/libyuvutil.so",
+			"toolchain" : "7344173253103573185"
+		}
+	},
+	"toolchains" : 
+	{
+		"7344173253103573185" : 
+		{
+			"cCompilerExecutable" : "/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/imac/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

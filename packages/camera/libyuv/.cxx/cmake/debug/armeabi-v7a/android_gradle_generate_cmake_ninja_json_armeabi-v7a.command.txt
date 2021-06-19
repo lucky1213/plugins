@@ -1,0 +1,15 @@
+Executable : /Users/imac/Library/Android/sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv
+-B/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/.cxx/cmake/debug/armeabi-v7a
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_PLATFORM=android-21
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/imac/Documents/flutter/projects/lucky1213/plugins/packages/camera/camera/android/libyuv/build/intermediates/cmake/debug/obj/armeabi-v7a
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/Users/imac/Library/Android/sdk/ndk/22.1.7171670
+-DCMAKE_CXX_FLAGS=
+-DCMAKE_TOOLCHAIN_FILE=/Users/imac/Library/Android/sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/imac/Library/Android/sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+

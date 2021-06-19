@@ -53,6 +53,10 @@ import io.flutter.plugins.camera.types.ExposureMode;
 import io.flutter.plugins.camera.types.FlashMode;
 import io.flutter.plugins.camera.types.FocusMode;
 import io.flutter.plugins.camera.types.ResolutionPreset;
+import io.flutter.plugins.camera.encoder.MediaAudioEncoder;
+import io.flutter.plugins.camera.encoder.MediaEncoder;
+import io.flutter.plugins.camera.encoder.MediaMuxerManager;
+import io.flutter.plugins.camera.encoder.MediaVideoEncoder;
 import io.flutter.view.TextureRegistry.SurfaceTextureEntry;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -98,8 +102,8 @@ public class Camera {
   private ImageReader imageStreamReader;
   private CaptureRequest.Builder captureRequestBuilder;
   private MediaRecorder mediaRecorder;
-  private boolean recordingVideo;
   private File videoRecordingFile;
+  private boolean videoRecording = false;
   private FlashMode flashMode;
   private ExposureMode exposureMode;
   private FocusMode focusMode;
@@ -110,6 +114,9 @@ public class Camera {
   private Range<Integer> fpsRange;
   private PlatformChannel.DeviceOrientation lockedCaptureOrientation;
   private long preCaptureStartTime;
+
+  private MediaMuxerManager mMediaMuxerManager;
+  private MediaVideoEncoder mMediaVideoEncoder;
 
   private static final HashMap<String, Integer> supportedImageFormats;
   // Current supported outputs
@@ -160,6 +167,8 @@ public class Camera {
     deviceOrientationListener =
         new DeviceOrientationManager(activity, dartMessenger, isFrontFacing, sensorOrientation);
     deviceOrientationListener.start();
+
+    mMediaMuxerManager = new MediaMuxerManager();
   }
 
   private void initFps(CameraCharacteristics cameraCharacteristics) {
@@ -311,19 +320,21 @@ public class Camera {
         new CameraCaptureSession.StateCallback() {
           @Override
           public void onConfigured(@NonNull CameraCaptureSession session) {
-            if (cameraDevice == null) {
-              dartMessenger.sendCameraErrorEvent("The camera was closed during configuration.");
-              return;
-            }
-            cameraCaptureSession = session;
+              if (cameraDevice == null) {
+                dartMessenger.sendCameraErrorEvent("The camera was closed during configuration.");
+                return;
+              }
+              cameraCaptureSession = session;
 
-            updateFpsRange();
-            updateFocus(focusMode);
-            updateFlash(flashMode);
-            updateExposure(exposureMode);
+                         updateFpsRange();
+                         updateFocus(focusMode);
+                         updateFlash(flashMode);
+                         updateExposure(exposureMode);
+              
+                          refreshPreviewCaptureSession(
+                              onSuccessCallback, (code, message) -> dartMessenger.sendCameraErrorEvent(message));
 
-            refreshPreviewCaptureSession(
-                onSuccessCallback, (code, message) -> dartMessenger.sendCameraErrorEvent(message));
+
           }
 
           @Override
@@ -333,21 +344,21 @@ public class Camera {
         };
 
     // Start the session
-    if (VERSION.SDK_INT >= VERSION_CODES.P) {
-      // Collect all surfaces we want to render to.
-      List<OutputConfiguration> configs = new ArrayList<>();
-      configs.add(new OutputConfiguration(flutterSurface));
-      for (Surface surface : remainingSurfaces) {
-        configs.add(new OutputConfiguration(surface));
-      }
-      createCaptureSessionWithSessionConfig(configs, callback);
-    } else {
-      // Collect all surfaces we want to render to.
-      List<Surface> surfaceList = new ArrayList<>();
-      surfaceList.add(flutterSurface);
-      surfaceList.addAll(remainingSurfaces);
-      createCaptureSession(surfaceList, callback);
-    }
+   if (VERSION.SDK_INT >= VERSION_CODES.P) {
+     // Collect all surfaces we want to render to.
+     List<OutputConfiguration> configs = new ArrayList<>();
+     configs.add(new OutputConfiguration(flutterSurface));
+     for (Surface surface : remainingSurfaces) {
+       configs.add(new OutputConfiguration(surface));
+     }
+     createCaptureSessionWithSessionConfig(configs, callback);
+   } else {
+     // Collect all surfaces we want to render to.
+     List<Surface> surfaceList = new ArrayList<>();
+     surfaceList.add(flutterSurface);
+     surfaceList.addAll(remainingSurfaces);
+     createCaptureSession(surfaceList, callback);
+   }
   }
 
   @TargetApi(VERSION_CODES.P)
@@ -481,10 +492,13 @@ public class Camera {
         }
 
         private void processCapture(CaptureResult result) {
+          if (mMediaVideoEncoder != null) {
+            mMediaVideoEncoder.frameAvailableSoon();
+          }
+
           if (pictureCaptureRequest == null) {
             return;
           }
-
           Integer aeState = result.get(CaptureResult.CONTROL_AE_STATE);
           Integer afState = result.get(CaptureResult.CONTROL_AF_STATE);
           switch (pictureCaptureRequest.getState()) {
@@ -620,7 +634,7 @@ public class Camera {
   }
 
   public void startVideoRecording(Result result) {
-    final File outputDir = applicationContext.getCacheDir();
+    final File outputDir = applicationContext.getExternalCacheDir();
     try {
       videoRecordingFile = File.createTempFile("REC", ".mp4", outputDir);
     } catch (IOException | SecurityException e) {
@@ -629,45 +643,71 @@ public class Camera {
     }
 
     try {
-      prepareMediaRecorder(videoRecordingFile.getAbsolutePath());
-      recordingVideo = true;
-      createCaptureSession(
-          CameraDevice.TEMPLATE_RECORD, () -> mediaRecorder.start(), mediaRecorder.getSurface());
+
+      // if you record audio only, ".m4a" is also OK.
+      mMediaMuxerManager = new MediaMuxerManager(videoRecordingFile.toString());
+      // 开始视频录制
+      mMediaVideoEncoder = new MediaVideoEncoder(mMediaMuxerManager, mMediaEncoderListener, previewSize.getWidth(), previewSize.getHeight());
+      // 开启音频录制
+      new MediaAudioEncoder(mMediaMuxerManager, mMediaEncoderListener);
+      // 视频，音频 录制初始化
+      mMediaMuxerManager.prepare();
+      mMediaMuxerManager.startRecording();
       result.success(null);
-    } catch (CameraAccessException | IOException e) {
-      recordingVideo = false;
-      videoRecordingFile = null;
+    } catch (IOException e) {
       result.error("videoRecordingFailed", e.getMessage(), null);
     }
   }
 
   public void stopVideoRecording(@NonNull final Result result) {
-    if (!recordingVideo) {
+    if (!mMediaMuxerManager.videoRecording()) {
       result.success(null);
       return;
     }
 
     try {
-      recordingVideo = false;
-
-      try {
-        cameraCaptureSession.abortCaptures();
-        mediaRecorder.stop();
-      } catch (CameraAccessException | IllegalStateException e) {
-        // Ignore exceptions and try to continue (changes are camera session already aborted capture)
+      mMediaMuxerManager.stopRecording();
+      if (mMediaVideoEncoder != null) {
+        mMediaVideoEncoder = null;
       }
-
-      mediaRecorder.reset();
       startPreview();
       result.success(videoRecordingFile.getAbsolutePath());
-      videoRecordingFile = null;
     } catch (CameraAccessException | IllegalStateException e) {
       result.error("videoRecordingFailed", e.getMessage(), null);
     }
   }
 
+  /**
+   * 视频、音频 开始与结束录制的回调
+   */
+  private final MediaEncoder.MediaEncoderListener mMediaEncoderListener = new MediaEncoder.MediaEncoderListener() {
+
+    @Override
+    public void onPrepared(final MediaEncoder encoder) {
+      // 开始录制视频
+      if (encoder instanceof MediaVideoEncoder) {
+        try {
+          createCaptureSession(CameraDevice.TEMPLATE_RECORD, () -> encoder.frameAvailableSoon(), ((MediaVideoEncoder) encoder).getIntputSurface());
+        } catch (CameraAccessException e) {
+          Log.e("MediaVideoEncoder", e.getMessage());
+        }
+      }
+    }
+
+    /**
+     * @param encoder
+     */
+    @Override
+    public void onStopped(final MediaEncoder encoder) {
+      // 结束录制视频
+      if (encoder instanceof MediaVideoEncoder) {
+
+      }
+    }
+  };
+
   public void pauseVideoRecording(@NonNull final Result result) {
-    if (!recordingVideo) {
+    if (!mMediaMuxerManager.videoRecording()) {
       result.success(null);
       return;
     }
@@ -688,7 +728,7 @@ public class Camera {
   }
 
   public void resumeVideoRecording(@NonNull final Result result) {
-    if (!recordingVideo) {
+    if (!mMediaMuxerManager.videoRecording()) {
       result.success(null);
       return;
     }
@@ -1020,7 +1060,7 @@ public class Camera {
           case auto:
             captureRequestBuilder.set(
                 CaptureRequest.CONTROL_AF_MODE,
-                recordingVideo
+                    mMediaMuxerManager.videoRecording()
                     ? CaptureRequest.CONTROL_AF_MODE_CONTINUOUS_VIDEO
                     : CaptureRequest.CONTROL_AF_MODE_CONTINUOUS_PICTURE);
           default:
